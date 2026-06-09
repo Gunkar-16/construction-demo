@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Building2, Home, Factory, Hammer, Boxes, ClipboardCheck, PenRuler, Map } from "lucide-react";
+import { ArrowRight, Building2, Home, Factory, Hammer, Boxes, ClipboardCheck, Ruler, Map } from "lucide-react";
 import { SiteLayout, PageHero } from "@/components/site/SiteLayout";
 
 export const Route = createFileRoute("/services")({
@@ -23,7 +23,7 @@ const services = [
   { icon: Hammer, title: "Renovations & Remodeling", desc: "Tenant improvements, adaptive reuse, and historic renovations — delivered with minimal disruption to operations.", features: ["Tenant improvements", "Adaptive reuse", "Historic preservation"] },
   { icon: Boxes, title: "Concrete & Foundations", desc: "Self-performed concrete: foundations, slabs, tilt-up walls, decorative finishes, and structural systems.", features: ["Tilt-up panels", "Post-tension slabs", "Decorative finishes"] },
   { icon: ClipboardCheck, title: "Project Management", desc: "End-to-end planning, cost control, RFI tracking, and reporting through our digital project portal.", features: ["Real-time dashboards", "Cost management", "Risk mitigation"] },
-  { icon: PenRuler, title: "Design-Build Services", desc: "Integrated design and construction under one contract. Faster timelines, lower costs, single accountability.", features: ["In-house architects", "Value engineering", "Single contract"] },
+  { icon: Ruler, title: "Design-Build Services", desc: "Integrated design and construction under one contract. Faster timelines, lower costs, single accountability.", features: ["In-house architects", "Value engineering", "Single contract"] },
   { icon: Map, title: "Site Development", desc: "Grading, utilities, paving, retaining walls, and site improvements — preparing the ground for what comes next.", features: ["Earthwork & grading", "Underground utilities", "Paving & striping"] },
 ];
 

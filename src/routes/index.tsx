@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   ArrowRight, Building2, Home, Factory, Hammer, Boxes, ClipboardCheck,
-  PenRuler, Map, Star, ShieldCheck, Award, Users, TrendingUp, CheckCircle2, Quote, Phone,
+  Ruler, Map, Star, ShieldCheck, Award, Users, TrendingUp, CheckCircle2, Quote, Phone,
 } from "lucide-react";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import heroImg from "@/assets/hero-construction.jpg";
@@ -31,7 +31,7 @@ const services = [
   { icon: Hammer, title: "Renovations & Remodeling", desc: "Modernize, expand, and transform existing structures with minimal disruption." },
   { icon: Boxes, title: "Concrete & Foundations", desc: "Site-cast and precast concrete, foundations, and structural systems." },
   { icon: ClipboardCheck, title: "Project Management", desc: "End-to-end planning, cost control, and quality assurance you can rely on." },
-  { icon: PenRuler, title: "Design-Build Services", desc: "Integrated design and construction under one contract — faster and leaner." },
+  { icon: Ruler, title: "Design-Build Services", desc: "Integrated design and construction under one contract — faster and leaner." },
   { icon: Map, title: "Site Development", desc: "Earthwork, utilities, paving, and site improvements done right the first time." },
 ];
 
