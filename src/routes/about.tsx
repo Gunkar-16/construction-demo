@@ -114,7 +114,7 @@ function AboutPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {team.map((m) => (
               <div key={m.name} className="group">
-                <div className="aspect-[4/5] rounded-xl overflow-hidden bg-[var(--gradient-dark)] relative">
+                <div className="aspect-[4/5] rounded-xl overflow-hidden bg-[var(--navy-deep)] relative">
                   <div className="absolute inset-0 flex items-center justify-center text-white/30 text-6xl font-bold">
                     {m.name.split(" ").map((p) => p[0]).join("")}
                   </div>

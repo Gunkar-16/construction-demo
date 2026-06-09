@@ -75,7 +75,7 @@ function HomePage() {
             <Link to="/projects" className="btn-outline-light text-base">View Projects</Link>
           </div>
 
-          <div className="mt-16 grid grid-cols-3 gap-6 md:gap-12 max-w-2xl">
+          <div className="mt-16 grid grid-cols-3 gap-6 md:gap-12 max-w-2xl pb-12">
             {[
               { n: "15+", l: "Years Experience" },
               { n: "500+", l: "Projects Completed" },
@@ -87,9 +87,6 @@ function HomePage() {
               </div>
             ))}
           </div>
-        </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/60 text-xs tracking-widest animate-pulse">
-          SCROLL
         </div>
       </section>
 

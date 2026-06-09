@@ -57,12 +57,7 @@ function ContactPage() {
   return (
     <SiteLayout>
       {/* Emergency banner */}
-      <div className="bg-[var(--orange)] text-white pt-24">
-        <div className="container-x py-3 flex flex-wrap items-center justify-center gap-3 text-sm font-semibold">
-          <AlertTriangle className="w-4 h-4" />
-          <span>24/7 Emergency Construction Services</span>
-          <a href="tel:+15555550911" className="underline underline-offset-2">(555) 555-0911</a>
-        </div>
+      <div className="bg-[var(--navy-deep)] text-white pt-24">
       </div>
 
       <PageHero

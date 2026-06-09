@@ -64,7 +64,7 @@ function CareersPage() {
               ))}
             </div>
           </div>
-          <div className="aspect-square rounded-2xl bg-[var(--gradient-dark)] p-10 text-white flex flex-col justify-between shadow-[var(--shadow-elegant)]">
+          <div className="aspect-square rounded-2xl bg-[var(--navy-deep)] p-10 text-white flex flex-col justify-between shadow-[var(--shadow-elegant)]">
             <Users className="w-12 h-12 text-[var(--orange)]" />
             <div>
               <h3 className="text-3xl font-bold">"It's the first job where I felt like the company invested in me as much as I invested in it."</h3>
