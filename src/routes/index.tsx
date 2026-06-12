@@ -3,12 +3,12 @@ import {
   ArrowRight, Building2, Home, Factory, Hammer, Boxes, ClipboardCheck,
   Ruler, Map, Star, ShieldCheck, Award, Users, TrendingUp, CheckCircle2, Quote, Phone,
 } from "lucide-react";
-import { SiteLayout } from "@/components/site/SiteLayout";
-import heroImg from "@/assets/hero-construction.jpg";
-import ctaImg from "@/assets/cta-construction.jpg";
-import projCommercial from "@/assets/project-commercial.jpg";
-import projResidential from "@/assets/project-residential.jpg";
-import projIndustrial from "@/assets/project-industrial.jpg";
+import { SiteLayout } from "../components/site/SiteLayout";
+import heroImg from "../assets/hero-construction.jpg";
+import ctaImg from "../assets/cta-construction.jpg";
+import projCommercial from "../assets/project-commercial.jpg";
+import projResidential from "../assets/project-residential.jpg";
+import projIndustrial from "../assets/project-industrial.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({

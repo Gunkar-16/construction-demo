@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Phone, Mail, MapPin, Clock, AlertTriangle, MessageCircle } from "lucide-react";
-import { SiteLayout, PageHero } from "@/components/site/SiteLayout";
+import { SiteLayout, PageHero } from "../components/site/SiteLayout";
 import { toast } from "sonner";
 import { z } from "zod";
 

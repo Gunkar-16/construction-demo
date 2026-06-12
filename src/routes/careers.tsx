@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Briefcase, Heart, GraduationCap, Coffee, Trophy, Users, MapPin, Clock } from "lucide-react";
-import { SiteLayout, PageHero } from "@/components/site/SiteLayout";
+import { SiteLayout, PageHero } from "../components/site/SiteLayout";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/careers")({

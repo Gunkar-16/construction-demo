@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ShieldCheck, Target, Eye, HeartHandshake, ArrowRight } from "lucide-react";
-import { SiteLayout, PageHero } from "@/components/site/SiteLayout";
-import teamImg from "@/assets/about-team.jpg";
+import { SiteLayout, PageHero } from "../components/site/SiteLayout";
+import teamImg from "../assets/about-team.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({

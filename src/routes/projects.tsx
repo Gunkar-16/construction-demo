@@ -1,13 +1,13 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
-import { SiteLayout, PageHero } from "@/components/site/SiteLayout";
-import projCommercial from "@/assets/project-commercial.jpg";
-import projResidential from "@/assets/project-residential.jpg";
-import projIndustrial from "@/assets/project-industrial.jpg";
-import projHotel from "@/assets/project-hotel.jpg";
-import projMedical from "@/assets/project-medical.jpg";
-import projRenovation from "@/assets/project-renovation.jpg";
+import { SiteLayout, PageHero } from "../components/site/SiteLayout";
+import projCommercial from "../assets/project-commercial.jpg";
+import projResidential from "../assets/project-residential.jpg";
+import projIndustrial from "../assets/project-industrial.jpg";
+import projHotel from "../assets/project-hotel.jpg";
+import projMedical from "../assets/project-medical.jpg";
+import projRenovation from "../assets/project-renovation.jpg";
 
 export const Route = createFileRoute("/projects")({
   head: () => ({

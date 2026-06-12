@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Building2, Home, Factory, Hammer, Boxes, ClipboardCheck, Ruler, Map } from "lucide-react";
-import { SiteLayout, PageHero } from "@/components/site/SiteLayout";
+import { SiteLayout, PageHero } from "../components/site/SiteLayout";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
